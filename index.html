@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="blur"></div>
+    <nav id="navbar">
+      <div class="navbar-main">
+        <img src="/images/logo.svg" alt="snap-logo" />
+        <!-- Mostrar en caso de ser Computadora de escritorio -->
+        <ul class="list-content desktop">
+          <li>
+            <div class="show-list-container">
+              <a href="#">Features</a>
+              <button class="slice-feature">
+                <img src="./images/icon-arrow-down.svg" alt="" />
+              </button>
+            </div>
+            <div class="hidden-list feature">
+              <ul>
+                <li>
+                  <a href="#" class="hidden-list-text"
+                    ><img src="./images/icon-todo.svg" alt="" />Todo List</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="hidden-list-text"
+                    ><img src="./images/icon-calendar.svg" alt="" />Calendar</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="hidden-list-text"
+                    ><img src="./images/icon-reminders.svg" alt="" />Reminders</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="hidden-list-text"
+                    ><img src="./images/icon-planning.svg" alt="" />Planning</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="show-list-container">
+              <a href="#">Company</a>
+              <button class="slice-company">
+                <img src="./images/icon-arrow-down.svg" alt="" />
+              </button>
+            </div>
+            <div class="hidden-list company">
+              <ul>
+                <li><a href="#" class="hidden-list-text">History</a></li>
+                <li><a href="#" class="hidden-list-text">Our Team</a></li>
+                <li><a href="#" class="hidden-list-text">Blog</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="" class="Carrers">Carrers</a></li>
+          <li><a href="" class="About">About</a></li>
+        </ul>
+        <div class="btn-section">
+          <button class="login">Login</button>
+          <button class="Register">Register</button>
+        </div>
+
+        <button class="menu">
+          <img src="/images/icon-menu.svg" alt="" />
+        </button>
+      </div>
+    </nav>
+    <!-- This section is to show the list -->
+    <div class="navbar-list">
+      <button class="quit">
+        <img src="./images/icon-close-menu.svg" alt="" />
+      </button>
+      <ul class="list-content">
+        <li>
+          <div class="show-list-container">
+            <a href="#">Features</a>
+            <button class="slice-feature">
+              <img src="./images/icon-arrow-down.svg" alt="" />
+            </button>
+          </div>
+          <div class="hidden-list feature">
+            <ul>
+              <li>
+                <a href="#" class="hidden-list-text"
+                  ><img src="./images/icon-todo.svg" alt="" />Todo List</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hidden-list-text"
+                  ><img src="./images/icon-calendar.svg" alt="" />Calendar</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hidden-list-text"
+                  ><img src="./images/icon-reminders.svg" alt="" />Reminders</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hidden-list-text"
+                  ><img src="./images/icon-planning.svg" alt="" />Planning</a
+                >
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <div class="show-list-container">
+            <a href="#">Company</a>
+            <button class="slice-company">
+              <img src="./images/icon-arrow-down.svg" alt="" />
+            </button>
+          </div>
+          <div class="hidden-list company">
+            <ul>
+              <li><a href="#" class="hidden-list-text">History</a></li>
+              <li><a href="#" class="hidden-list-text">Our Team</a></li>
+              <li><a href="#" class="hidden-list-text">Blog</a></li>
+            </ul>
+          </div>
+        </li>
+        <li><a href="" class="Carrers">Carrers</a></li>
+        <li><a href="" class="About">About</a></li>
+      </ul>
+      <div class="btn-section">
+        <button class="login">Login</button>
+        <button class="Register">Register</button>
+      </div>
+    </div>
+    <!-- This section is to show the buttons -->
+    <main id="main">
+      <div class="hero">
+        <img src="/images/image-hero-desktop.png" alt="hero" class="desktop-hero"/>
+        <img src="/images/image-hero-mobile.png" alt="hero"  class="mobile-hero"/>
+      </div>
+      <div class="main-content">
+        <h1 class="title">Make remote work</h1>
+        <p class="paragraph">
+          Get your team in sync, no matter your location. Streamline processes,
+          create team rituals, and watch productivity soar.
+        </p>
+        <button class="learn-more">Learn more</button>
+        <div class="patrocinadores">
+          <ul>
+            <li><img src="/images/client-databiz.svg" alt="" /></li>
+            <li><img src="/images/client-audiophile.svg" alt="" /></li>
+            <li><img src="/images/client-meet.svg" alt="" /></li>
+            <li><img src="/images/client-maker.svg" alt="" /></li>
+          </ul>
+        </div>
+      </div>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>
